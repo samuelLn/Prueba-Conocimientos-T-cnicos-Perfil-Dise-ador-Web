@@ -1,0 +1,451 @@
+
+
+h1,h2,h3,h4,h5,h6{
+color: #2e384d;
+font-size: 1rem;
+font-family: roboto;
+}
+
+
+.tituloPrincipal {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: -2px;
+    margin: 20px 0px 20px 0px;
+}
+
+.subtitulo{
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 20px 0px 20px 0px;
+
+
+}
+/*estilos volver top*/
+
+.Convolver{
+  padding: 1px;
+  margin: 60px 0px 30px 0px;
+
+}
+
+.volverTop {
+
+    color: #8798ad;
+    font-size: 1rem;
+    padding: 2px;
+    margin: 10px 0px;
+}
+
+.volverTop:hover {
+text-decoration: none; 
+}
+
+.fa-chevron-left:before {
+    content: "\f053";
+    margin-right: 4px;
+}
+/*Estilos para Nav top*/
+.contentNav {
+    background-color: #f9fafb;
+    display:flex;
+    flex-direction: row;
+    align-items: null;
+    border: 1px solid #8798ad;
+    border-radius: 50px;
+    width: 55%;
+}
+
+.nav1 {
+    background-color: #0064ff;
+    padding: 10px;
+    width: 60%;
+    border-radius: 50px;
+}
+
+.linkSeccion:hover{ 
+text-decoration: none;
+
+}
+
+.Rotulo1{
+margin: 0px;
+text-align: center;
+color:rgb(255, 255, 255);
+}
+
+.inactivo{
+background-color: #f9fafb;
+width: 40%;
+}
+
+.inactivoRotulo{
+color: #2e384d;
+}
+    
+/*Formualrios*/
+
+.ContentFormulario {
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    padding: 10px 15px;
+    border: 1px solid #8798ad;
+    box-shadow: -1px 0px 14px 0px #8798ad5e;
+    width: 80%;
+    border-radius: 3px
+}
+
+
+.infoBuscador {
+    color: #2e384d;
+    font-weight: 700;
+}
+
+.contenInput{
+display: flex
+}
+
+
+.wrappBuscar{
+width: 70%;
+margin: 0px 10px 0px 0px;
+}
+
+.form-control{
+border-radius: 0px;
+border: 1px solid #8798ad;
+}
+
+.btn-primary {
+    border-radius: 30px;
+    padding: 5px 40px;
+    background: #f9fafb;
+    color: #0064ff;
+    border: 1px solid #0064ff;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background: #0064ff;
+    color: #ffffff;
+    
+}
+
+.ConteInstruiciones{
+    margin-top: 10px;
+}
+
+.Instruciones {
+    margin: 1px 0px;
+   color: #2e384db0;
+    font-size: .9rem;
+}
+/*estilo bloque resultado*/
+
+.ContentResultado{
+padding: 10px 15px;
+margin-top: 25px;
+width: 80%;
+}
+
+/*
+.ContentResultado{
+}*/
+
+.Cajageneral {
+ margin-top: 20px;
+}
+
+.tituloCategoria{
+color: black;
+font-weight: bold;
+
+}
+
+.tablaResultado{
+    display: flex;
+    padding: 3px 5px;
+    border: solid 1px #ffffff00;
+}
+
+
+.tablaResultado:hover{
+    border: solid 1px #33ac2e;
+    background-color: #eaf6ea;
+    
+}
+
+.iconoTicket{color:rgba(245, 222, 179, 0) ;}
+
+.tablaResultado:hover .iconoTicket {
+    color:#33ac2e ;
+   
+}
+
+
+.iconoTicket, .agregar, .contentID, .Articulo {
+font-size: .8rem;
+margin: 0px 8px 0px 8px;
+}
+
+.agregar{width: 18%;}
+.contentID{width: 10%;}
+
+.iconoTicket, .textAgregar, .textId, .textArticulo{
+margin: 0px;
+
+}
+
+.textAgregar{color: #0064ff;}
+.textId{ color: #2e384db0; }
+.textArticulo { color: #2e384d;}
+/*esilo boton volver abajo*/
+
+
+.ContentFooter{
+padding: 10px 0px;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+
+.BtnVolverBottom{
+
+padding: 10px 40px;
+border: solid 1px #8798ad;
+border-radius: 30px;
+background-color: rgb(135 152 173 / 5%);
+color:#8798ad;
+font-weight: 600;
+}
+
+.BtnVolverBottom:hover{
+
+    text-decoration: none;
+    background-color: #004ec6;
+    color: white;
+} 
+
+/*estilo para acodeon*/
+
+.accordion {
+    overflow-anchor: none;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.card {
+    border:none;
+    
+}
+
+.card-header{
+
+    border: none;
+    background-color: rgb(0 0 0 / 0%);
+    padding: 0px;
+}
+
+
+.fa-angle-right:before {
+    content: "\f105";
+    color: #0064ff;
+    margin-right: 12px;
+    font-size: 1.4rem;
+}
+
+.fa-angle-down:before {
+    content: "\f107";
+    color: #0064ff;
+    margin-right: 12px;
+    font-size: 1.4rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.Enlaceacordeon{
+
+    color: #595a5a;
+    text-decoration: underline;
+    font-size: .9rem;
+
+}
+
+
+/* estilo formulario cotizacion */
+
+.ContentFormularioCotizacion {
+    margin-top: 40px;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+.contenInputCotizacion{
+    display: flex;
+    justify-content: center;
+}
+
+
+.wrappBuscarCotizar {
+    width: 50%;
+    margin: 0px 10px 0px 0px;
+}
+
+.wrappbtnCoc {
+    margin-right: 25px;
+    width: 20%;
+}
+.CampoObligatirio{
+color: rgb(212, 55, 55);
+}
+
+
+.mensajeAyuda{
+font-size: .7rem;
+color: #808794;
+margin-bottom: 0px
+}
+/*estilo Botonera*/
+
+.containBotoneraForm{
+    margin-top: 40px;
+    display: flex;
+}
+
+.Wrappbtn1{
+    padding: 15px 2px;
+    width: 50%;
+}
+.Wrappbtn2{
+    padding: 15px 2px;
+    width: 30%;
+    text-align: right;
+}
+.Wrappbtn3{
+    padding: 15px 2px;
+    width: 30%;
+}
+
+
+
+/*-------------------Estilos Tableta-----------------------*/
+
+@media only screen and (max-width: 1280px) and (min-width: 649px) {
+
+
+    .contenInputCotizacion {
+     flex-direction: column;
+    }
+
+    .wrappbtnCoc {width: 100%;}
+
+    .wrappBuscarCotizar {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+       }
+
+    .infoBuscador {margin: 0px;}
+
+    .Wrappbtn1 { width: 35%;}
+    .Wrappbtn2 {width: 40%;}
+    .Wrappbtn3 {width: 30%;}
+
+
+}
+
+
+/*-------------------Estilos movil-----------------------*/
+@media only screen and (max-width: 650px) and (min-width: 200px) {
+   .contentNav {
+    width: 100%;
+    }
+
+    .nav1 {padding: 3px;}
+    .ContentFormulario{width: 100%;}
+    .contenInput {flex-direction: column;}
+    .wrappBuscar {width: 100%;}
+    .wrappbtn {text-align: center; margin-top: 10px;}
+    .ContentResultado {width: 100%;}
+    .tablaResultado {
+        display: flex;
+        flex-direction: column;
+        }
+   .agregar, .contentID, .Articulo {
+    width: 100%;
+    }
+
+    .ContentFooter {
+        padding: 10px 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+   /*Estilo formulario movil*/
+    .contenInputCotizacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrappbtnCoc {
+        margin-right: 0px;
+        width: 90%;
+    }
+    .wrappBuscarCotizar {
+        width: 90%;
+    }
+    .ContentFormularioCotizacion {
+       
+        margin-top: 1px;
+    }
+    .tituloPrincipal {
+        font-size: 1.4rem;
+        font-weight: 400;
+        letter-spacing: 0px; 
+         margin: 0px 0px 0px 0px; 
+    }
+
+    .infoBuscador {
+        margin-bottom: 0px;
+        font-size: .7rem;
+    }
+
+
+    /*Estilo botonera BOTTOM*/
+     .containBotoneraForm {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .Wrappbtn1, .Wrappbtn2, .Wrappbtn3  {
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    }
+    .BtnVolverBottom {
+     display: block;
+      
+    } 
+   
+
+}
+/*Clases de ayuda*/
+
+.FondoAzul{background-color: #0064ff;}
+.FondoBlanco{background-color: #f9fafb;}
+.TextoNegro{color: #2e384d;}
+.textoBlaco{color: white;}
+
+.porcentajeMax{ width: 100%;}
+.fondoborradordor{background-color: #8a9cb3;}
+
+/*estilo para acordeon */
+.btn.focus, .btn:focus {box-shadow:none !important;}
+.btn-link {color:none !important;}
+
+.navbar-nav {text-align: center;}
